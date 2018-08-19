@@ -1,0 +1,49 @@
+.item{
+    width:150px;
+    height:200px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 3px -4px 22px #aaaaaa;      
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4px;
+
+}
+
+.item .item-title{
+    display: block;
+    font-weight: bold;
+    padding-top: 15px;
+    height: 20px;
+}
+
+.item img{
+    padding-top: 7px;
+    align-self: center;
+}
+
+.item .buttom-section{
+    align-self: flex-end; 
+    display: flex;      
+}
+
+.item .edit-icon{
+    width: 32px;
+    height: 34px; 
+    margin-right: 5px;
+}
+
+
+.item .button-del{
+    margin-bottom: 4px;
+    margin-right: 4px;
+    width: 32px;
+    height: 34px; 
+}
+
+.item .align{
+    align-self: flex-end;  
+    cursor: pointer; 
+    
+}
+
