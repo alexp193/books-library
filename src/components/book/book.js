@@ -77,7 +77,8 @@ export default class Book extends React.Component {
     checkTitle(title) {
         const TitleExists = this.props.books.filter(book => book.volumeInfo.title === title);
 
-        if (TitleExists[0].volumeInfo.title === this.props.book.volumeInfo.title) {
+        
+        if (TitleExists.length && TitleExists[0].volumeInfo.title === this.props.book.volumeInfo.title) {
             return false
         }
 
