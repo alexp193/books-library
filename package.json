@@ -3,20 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "@material-ui/icons": "^1.1.0",
+    "alt": "^0.18.6",
+    "axios": "^0.18.0",
+    "gh-pages": "^1.2.0",
+    "material-ui-icons": "^1.0.0-beta.36",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
     "uuid": "^3.3.2",
-    "alt": "^0.18.6",
-    "axios": "^0.18.0",
-    "@material-ui/core": "^1.4.0",
-    "@material-ui/icons": "^1.1.0",
-    "material-ui-icons": "^1.0.0-beta.36"
+    "homepage": "https://alexp193.github.io/books-library" 
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
