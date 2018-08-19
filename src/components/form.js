@@ -102,6 +102,9 @@ export default class Form extends React.Component {
             }
         });
 
+        this.setState({
+            newBook: { title: '', author: '', publishedDate: '', imageURL: '' },
+        })
         this.handleAddModal();
     };
 
